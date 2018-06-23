@@ -3,7 +3,7 @@
 -- 工作日志表
 --
 
-CREATE TABLE IF NOT EXISTS `log_work` (
+CREATE TABLE IF NOT EXISTS `log_works` (
   `id` int(10) unsigned NOT NULL COMMENT '用户ID',
   `user_id` int(10) unsigned NOT NULL COMMENT '用户ID',
   `user_name` char(32) NOT NULL COMMENT '用户名',

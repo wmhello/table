@@ -3,7 +3,7 @@
 -- 登录日志表
 --
 
-CREATE TABLE IF NOT EXISTS `log_login` (
+CREATE TABLE IF NOT EXISTS `log_logins` (
   `id` int(10) unsigned NOT NULL COMMENT '用户ID',
   `user_id` int(10) unsigned NOT NULL COMMENT '用户ID',
   `user_name` char(32) NOT NULL COMMENT '用户名',
